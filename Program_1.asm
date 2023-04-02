@@ -1,6 +1,7 @@
 # Name: Joshua Ho
 # Date: 04/02/2023
 # Assignment: Program 1: Getting Familiar with Assembly
+# Repository: https://github.com/cs2640-02/lab_7
 # Objectives: 
 # Task 1
 #  - User main label
@@ -47,7 +48,7 @@ main:
 	# get user input
 	li $v0, 5
 	syscall
-	
+
 	move $s0, $v0 # move $v0 to $s0
 	
 	# print out getNum2
